@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.link -> {
-                    val githubUrl = "https://github.com/lokesh-bottu/TimeTable/"
+                    val githubUrl = "https://github.com/punyakrit/TimeTable"
                     val intent = Intent(Intent.ACTION_VIEW)
                     intent.data = Uri.parse(githubUrl)
                     startActivity(intent)

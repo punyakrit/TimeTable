@@ -132,7 +132,7 @@ class monday : Fragment() {
             val notificationBuilder = NotificationCompat.Builder(context, channelId)
                 .setSmallIcon(R.drawable.noti)
                 .setContentTitle("Class Reminder")
-                .setContentText("Maths Class")
+                .setContentText("")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setAutoCancel(true)
                 .setContentIntent(pendingIntent)
